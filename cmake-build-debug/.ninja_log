@@ -1,0 +1,13 @@
+# ninja log v5
+6	253	1687175950520037363	CMakeFiles/rol.dir/characters/CharacterEnemy.cpp.o	fdfc8be683704f09
+234	267	1687176002427309992	rol	2aefbe1624f81c5e
+6	252	1687175950518547522	CMakeFiles/rol.dir/Box.cpp.o	c90daa315053bc3b
+6	250	1687175950519484235	CMakeFiles/rol.dir/characters/Character.cpp.o	260899ba0dad8039
+7	248	1687166979087902206	CMakeFiles/rol.dir/Character.cpp.o	1a988128c2d43b6c
+0	4	0	clean	c4ab44fb62dfe93b
+6	228	1687176002386199548	CMakeFiles/rol.dir/persons/Character.cpp.o	e562e64c6d50e9d
+7	253	1687175950521386786	CMakeFiles/rol.dir/characters/Person.cpp.o	4f1a9ed64510ce45
+6	234	1687176002392618870	CMakeFiles/rol.dir/main.cpp.o	af6787fc379f894d
+6	234	1687178275998167427	CMakeFiles/rol.dir/persons/Character.cpp.o	e562e64c6d50e9d
+6	239	1687178276003352484	CMakeFiles/rol.dir/main.cpp.o	af6787fc379f894d
+239	273	1687178276039261962	rol	2aefbe1624f81c5e
