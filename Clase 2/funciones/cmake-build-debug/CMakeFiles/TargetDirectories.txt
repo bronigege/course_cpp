@@ -1,0 +1,3 @@
+/Users/brunogomezgarcia/Desktop/funciones/cmake-build-debug/CMakeFiles/funciones.dir
+/Users/brunogomezgarcia/Desktop/funciones/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/brunogomezgarcia/Desktop/funciones/cmake-build-debug/CMakeFiles/rebuild_cache.dir
