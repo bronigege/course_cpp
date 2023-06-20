@@ -21,7 +21,8 @@ void setLong(long l) {
 
 void convert(int i) { }
 
-auto add(int a, int b) {
+
+auto add(int a, int b) -> int {
     return a + b;
 }
 
