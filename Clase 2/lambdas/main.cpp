@@ -73,5 +73,45 @@ int main() {
 
     std::cout << std::endl;
 
+
+    /**
+     * Las lambdas son un tipo de objeto que se denomina
+     * Functors. Los Functores son objetos que contienen
+     * un operador sobrecargado
+     */
+
+    // Un puntero de función regular. Solo funciona si la clausula de captura
+    // está vacía
+
+    double (*addNumbers)(double, double) {
+            [](double a, double b) {
+                return (a + b);
+            }
+    };
+
+    double a1 = addNumbers(1, 2);
+
+    // Usando std::function, la lambda podría tener una cláusula de captura no vacía
+    std::function addNumbers2 {
+            [](double a, double b) {
+                return (a + b);
+            }
+    };
+
+    double a2 = addNumbers2(3, 4);
+
+    // Usando auto. Almacena lambda con su tipo real.
+    auto addNumbers3 {
+            [](double a, double b) {
+                return (a + b);
+            }
+    };
+
+    auto a3 = addNumbers3(5, 6);
+    std::cout << a1 << std::endl;
+    std::cout << a2 << std::endl;
+    std::cout << a3 << std::endl;
+
+
     return 0;
 }

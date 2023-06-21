@@ -1,4 +1,4 @@
-# Install script for directory: /Users/brunogomezgarcia/Desktop/untitled3
+# Install script for directory: /Users/brunogomezgarcia/Developer/Freelance/Cursos/C++/course_cpp/Clase 2/lambdas
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/brunogomezgarcia/Desktop/untitled3/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/brunogomezgarcia/Developer/Freelance/Cursos/C++/course_cpp/Clase 2/lambdas/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
