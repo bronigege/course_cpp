@@ -1,0 +1,21 @@
+# ninja log v5
+0	3	0	clean	c4ab44fb62dfe93b
+6	286	1687289579462561798	CMakeFiles/sqlite.dir/utils/logger/Logger.cpp.o	d72ff7fb5711f524
+7	308	1687289510789594283	CMakeFiles/sqlite.dir/main.cpp.o	1996de78e9f041a8
+286	317	1687289579495801569	sqlite	41a3687fca13b39b
+7	305	1687289510785898289	CMakeFiles/sqlite.dir/utils/bd/Sqlite.cpp.o	b5ce1cb3406f5bf3
+0	31	1687289693340857414	build.ninja	a8e9495977f858cc
+8	313	1687289130698145112	CMakeFiles/sqlite.dir/Sqlite.cpp.o	7d234e1681079660
+7	316	1687289741703276353	CMakeFiles/sqlite.dir/utils/bd/Sqlite.cpp.o	b5ce1cb3406f5bf3
+7	319	1687289741705519568	CMakeFiles/sqlite.dir/main.cpp.o	1996de78e9f041a8
+7	319	1687289741706255695	CMakeFiles/sqlite.dir/utils/logger/Logger.cpp.o	d72ff7fb5711f524
+319	351	1687289741740607218	sqlite	41a3687fca13b39b
+6	306	1687289926534072048	CMakeFiles/sqlite.dir/main.cpp.o	1996de78e9f041a8
+7	307	1687289926534278715	CMakeFiles/sqlite.dir/utils/bd/Sqlite.cpp.o	b5ce1cb3406f5bf3
+307	339	1687289926569259073	sqlite	41a3687fca13b39b
+5	321	1687290426390816830	CMakeFiles/sqlite.dir/main.cpp.o	1996de78e9f041a8
+6	323	1687290426393364296	CMakeFiles/sqlite.dir/utils/bd/Sqlite.cpp.o	b5ce1cb3406f5bf3
+6	327	1687290426397590600	CMakeFiles/sqlite.dir/utils/logger/Logger.cpp.o	d72ff7fb5711f524
+327	359	1687290426430677786	sqlite	41a3687fca13b39b
+6	287	1687290436889927431	CMakeFiles/sqlite.dir/utils/bd/Sqlite.cpp.o	b5ce1cb3406f5bf3
+288	318	1687290436922376990	sqlite	41a3687fca13b39b
