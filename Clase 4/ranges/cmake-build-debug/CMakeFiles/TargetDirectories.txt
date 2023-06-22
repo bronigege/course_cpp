@@ -1,0 +1,3 @@
+/Users/brunogomezgarcia/Developer/Freelance/Cursos/C++/course_cpp/Clase 4/ranges/cmake-build-debug/CMakeFiles/ranges.dir
+/Users/brunogomezgarcia/Developer/Freelance/Cursos/C++/course_cpp/Clase 4/ranges/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/brunogomezgarcia/Developer/Freelance/Cursos/C++/course_cpp/Clase 4/ranges/cmake-build-debug/CMakeFiles/rebuild_cache.dir
