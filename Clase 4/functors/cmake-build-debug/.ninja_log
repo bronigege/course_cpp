@@ -1,0 +1,8 @@
+# ninja log v5
+241	273	1687377942796323589	functors	d45c0efa293d603a
+6	241	1687377942762526641	CMakeFiles/functors.dir/main.cpp.o	3d254f0c57066d5d
+7	31	1687367487412743804	CMakeFiles/functors.dir/Account.cpp.o	2faa8c46848bd7ec
+7	246	1687377634107769384	CMakeFiles/functors.dir/Point.cpp.o	4ece889ebc5487f9
+6	27	1687376840674810192	CMakeFiles/functors.dir/Clientes.cpp.o	adce3b5349d830bb
+6	28	1687377942551231118	CMakeFiles/functors.dir/Funtor.cpp.o	ad97d9cc367328d
+6	29	1687376327286269010	CMakeFiles/functors.dir/AccountPrivate.cpp.o	8c218a1a955199cf
