@@ -3,6 +3,7 @@
 #include <ranges>
 #include <list>
 #include "Persona.h"
+#include "Vehiculo.h"
 
 void printRange(std::string message, auto& rango) {
     std::cout << message;
@@ -184,12 +185,34 @@ int main() {
     // ELIMINA 2
     // TRANSFORME TODOS LOS ELEMENTOS MULTIPLICÁNDOLES POR 10
 
-    // Vamos a tener una clase Vehiculo con atributos matrícula
-    // marca, modelo, itv (false). Crear un vector o array en el que guardéis
-    // 5 elementos, los ordenéis por matrícula y otro filter que ponga
-    // que pasaron la itv(true)
+
 
     printRange("Resultado final ", result);
+
+    std::vector<Vehiculo> vehiculos{
+            Vehiculo{"43423K", "SEAT", "León", true},
+            Vehiculo{"12344C", "SEAT", "Ibiza", false},
+            Vehiculo{"53534M", "Renault", "Megane", false},
+            Vehiculo{"31245B", "Seat", "Panta", true},
+            Vehiculo{"76765G", "Renault", "2", false},
+    };
+    std::ranges::sort(vehiculos, {}, &Vehiculo::getMatricula );
+
+    for(auto vehiculo: vehiculos) {
+        std::cout << vehiculo.getMatricula() << std::endl;
+    }
+
+    std::cout << std::endl;
+
+    auto resultVehiculos{ vehiculos
+        | std::views::filter([](const Vehiculo& v) {return v.isItv();})
+    };
+
+    for(auto v: resultVehiculos) {
+        std::cout << v.getMatricula() << std::endl;
+    }
+
+    std::cout << std::endl;
 
     return 0;
 }

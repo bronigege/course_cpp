@@ -3,4 +3,4 @@ project(ranges)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(ranges main.cpp Persona.h)
+add_executable(ranges main.cpp Persona.h Vehiculo.h)
